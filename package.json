@@ -1,0 +1,34 @@
+{
+    "name": "projeto-nodejs-rest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gustavobr/NodeJs---Rest-Api.git"
+    },
+    "keywords": [
+        "nodejsApi"
+    ],
+    "author": "Gustavo Rodrigues",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gustavobr/NodeJs---Rest-Api/issues"
+    },
+    "homepage": "https://github.com/Gustavobr/NodeJs---Rest-Api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "consign": "^0.1.6",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "mysql": "^2.18.1",
+        "pg": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
